@@ -129,8 +129,8 @@ def winning_team
     end
     if team_total > team_points
       team_points = team_total
+      team_name = team[:team_name]
     end
-    team_name = team[:team_name]
   end
   team_name
 end
